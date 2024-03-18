@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/diegotc/guestbook:20240229-020401 #gcr.io/heptio-images/ks-guestbook-demo
-  tag: 0.1
+  repository: docker.io/diegotc/guestbook
+  tag: 20240229-020401
   pullPolicy: IfNotPresent
 
 containerPort: 80
